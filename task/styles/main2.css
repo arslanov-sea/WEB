@@ -1,0 +1,91 @@
+header {
+    width: 100%;
+    background-color: bisque;
+    height: 80px;
+}
+
+.contentDiv {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo { 
+    float: left; 
+} 
+.title{ 
+    float: left; 
+    margin: 0; 
+    padding: 5px; 
+    color: rgb(25, 69, 28); 
+    text-decoration: none; 
+    font-size: 36px; 
+} 
+.navHeader { 
+    float: right; 
+    word-spacing:30px; 
+    font-size:20px; 
+} 
+.navHeader ul { 
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+} 
+.navHeader li { 
+    display: inline-block; 
+    margin-left: 10px;  
+} 
+ 
+.inHeader:after {  
+    content: ""; 
+    display: table; 
+    clear: both; 
+} 
+.inHeader { 
+    width: 100%; 
+    padding: 15px; 
+} 
+.navHeader a{ 
+    line-height: 50px; 
+    text-decoration: none; 
+    color: black; 
+} 
+
+.inHeader div { 
+    float:left; 
+    max-width: 960px; 
+} 
+table { 
+    border: 1px solid rgb(0, 0, 0); 
+    border-collapse: collapse;/*совместим рамки*/ 
+    width: 100%; 
+} 
+td { 
+    border: 1px solid rgb(152, 172, 38); 
+ } 
+tbody tr:nth-child(odd) 
+{ 
+    background: #78d8b2; 
+} 
+tbody tr:nth-child(even) 
+{ 
+    background: #9898d4; 
+}
+
+.tableBlock {
+    background-color: #e7c166;
+}
+
+.formBlock {
+    margin-top: 20px;
+    background-color: #b5e75a;
+}
+
+footer{ 
+  margin-top: 20px;
+  padding: 10px; 
+  background-color: #a7a7a7; 
+  color: #000; 
+  word-spacing:30px; 
+  font-size:20px; 
+}
