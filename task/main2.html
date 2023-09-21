@@ -35,7 +35,7 @@
             <li><a href="https://www.kubsu.ru/index.php#zone-footer-wrapper">Ссылка с параметром id в url (Сайт КубГУ)</a></li>
             <li><a href="./somePage.html">Относительная ссылка на страницу в текущем каталоге</a></li>
             <li><a href="./about/about.html">About</a></li>
-            <li>Ссылки на переход на страницу каталогом и двумя каталогами выше находятся в файлах about и details (Ссылка на details находится на странице about)</li>
+            <li>Ссылки на переход на страницу каталогом двумя каталогами выше находятся в файлах about и details (Ссылка на details находится на странице about)</li>
             <li>Филосо́фия — особая форма <a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B5">познания</a> и система знаний об общих характеристиках</li>
             <li><a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B5#Литература">Ссылка на фрагмент страницы стороннего сайта</a></li>
             <li>
@@ -86,14 +86,13 @@
                 <tr> 
                     <td>Юлия</td> 
                     <td>Кондратьева</td> 
-                    <td>Краснодар</td> 
+                    <td rowspan="2">Краснодар</td> 
                     <td>КубГУ</td> 
                 </tr> 
                 <tr> 
                     <td>Кристина</td> 
                     <td>Алексеева</td> 
-                    <td>Москва</td>
-                    <td>ВШЭ</td>
+                    <td>КубГТУ</td>
                 </tr> 
                 <tr> 
                     <td>Рита</td> 
@@ -121,31 +120,34 @@
         <h3>Форма</h3>
         <form action="URL_отправки_данных" method="POST" id="form1">
             <label>
-                ФИО
+                ФИО<br/>
                 <input type="text">
             </label><br/>
             <br/>
+                Телефон<br/>
+                <input type="tel">
+            <br>
             <label>
-                email
+                email<br/>
                 <input type="email">
             </label><br/>
             <br/>
             <label>
-                Дата рождения
+                Дата рождения<br/>
                 <input type="date">
             </label><br/>
             <label>Пол</label><br/>
             <label>
-                Мужской
+                Мужской<br/>
                 <input type="radio" name="radio_1">
             </label>
             <label>
-                Женский
+                Женский<br/>
                 <input type="radio" name="radio_1">
             </label><br/>
             <label>
                 Любимый язык программирования<br/>
-                    <select name="FavPL" multiple="multiple">
+                    <select name="[FavPL]" multiple="multiple">
                     <option value="Pascal">Pascal</option>
                     <option value="C">C</option>
                     <option value="C++">C++</option>
@@ -172,7 +174,7 @@
     
 
     <footer>
-        <div class="contentDiv">Arslanovco 27/2 2023</div>
+        <div">Arslanovco 27/2 2023</div>
     </footer> 
 
 </body>

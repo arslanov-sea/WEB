@@ -19,7 +19,7 @@
         <li><a href="https://www.kubsu.ru/index.php#zone-footer-wrapper">Ссылка с параметром id в url (Сайт КубГУ)</a></li>
         <li><a href="./somePage.html">Относительная ссылка на страницу в текущем каталоге</a></li>
         <li><a href="./about/about.html">About</a></li>
-        <li>Ссылки на переход на страницу каталогом и двумя каталогами выше находятся в файлах about и details (Ссылка на details находится на страницу about)</li>
+        <li>Ссылки на переход на страницу каталогом двумя каталогами выше находятся в файлах about и details (Ссылка на details находится на странице about)</li>
         <li>Филосо́фия — особая форма <a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B5">познания</a> и система знаний об общих характеристиках</li>
         <li><a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B5#Литература">Ссылка на фрагмент страницы стороннего сайта</a></li>
         <li>
@@ -47,55 +47,58 @@
         <li><a href="ftp://user:password@example.com/myfile.zip">Файл на сервере FTP с авторизацией</a></li>
     </ul>
 
-    <form action="URL_отправки_данных" method="POST">
-        <label>
-            ФИО
-            <input type="text">
-        </label><br/>
-        <br/>
-        <label>
-            email
-            <input type="email">
-        </label><br/>
-        <br/>
-        <label>
-            Дата рождения
-            <input type="date">
-        </label><br/>
-        <label>Пол</label><br/>
-        <label>
-            Мужской
-            <input type="radio" name="radio_1">
-        </label>
-        <label>
-            Женский
-            <input type="radio" name="radio_1">
-        </label><br/>
-        <label>
-            Любимый язык программирования<br/>
-                <select name="FavPL" multiple="multiple">
-                <option value="Pascal">Pascal</option>
-                <option value="C">C</option>
-                <option value="C++">C++</option>
-                <option value="JavaScript">JavaScript</option>
-                <option value="Python">Python</option>
-                <option value="PHP">PHP</option>
-                <option value="Java">Java</option>
-                <option value="Haskel">Haskel</option>
-                <option value="Clojure">Clojure</option>
-                <option value="Prolog">Prolog</option>
-                <option value="Scala">Scala</option>
-            </select>
-        </label><br/>
-        <label>
-            Биография:<br />
-            <textarea name="field-name-2">начальное значение</textarea>
-        </label><br/>
-        <label><input type="checkbox" checked="checked" name="check-1" />
-            С контрактом ознакомлен(а)
-        </label><br/>
-        <input type="submit" value="Сохранить" />
-    </form>
-
+    <form action="URL_отправки_данных" method="POST" id="form1">
+            <label>
+                ФИО<br/>
+                <input type="text">
+            </label><br/>
+            <br/>
+                Телефон<br/>
+                <input type="tel">
+            <br>
+            <label>
+                email<br/>
+                <input type="email">
+            </label><br/>
+            <br/>
+            <label>
+                Дата рождения<br/>
+                <input type="date">
+            </label><br/>
+            <label>Пол</label><br/>
+            <label>
+                Мужской<br/>
+                <input type="radio" name="radio_1">
+            </label>
+            <label>
+                Женский<br/>
+                <input type="radio" name="radio_1">
+            </label><br/>
+            <label>
+                Любимый язык программирования<br/>
+                    <select name="[FavPL]" multiple="multiple">
+                    <option value="Pascal">Pascal</option>
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Python">Python</option>
+                    <option value="PHP">PHP</option>
+                    <option value="Java">Java</option>
+                    <option value="Haskel">Haskel</option>
+                    <option value="Clojure">Clojure</option>
+                    <option value="Prolog">Prolog</option>
+                    <option value="Scala">Scala</option>
+                </select>
+            </label><br/>
+            <label>
+                Биография:<br />
+                <textarea name="field-name-2">начальное значение</textarea>
+            </label><br/>
+            <label><input type="checkbox" checked="checked" name="check-1" />
+                С контрактом ознакомлен(а)
+            </label><br/>
+            <input type="submit" value="Сохранить" />
+        </form>
+        
 </body>
 </html></html>
