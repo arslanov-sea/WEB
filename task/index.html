@@ -1,29 +1,33 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="styles/main2.css">
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/mobile.css" media="(max-width: 1180px)">
+    <link rel="stylesheet" href="styles/desktop.css" media="(min-width: 1180px)">
+</head>
+<body>
 
-        <header> 
-            <div class="inHeader"> 
-            <a href="#" class="logo"> <img src="media/headerLogo.jpeg" width="50" height="50" alt="logo"></a> 
-            <a href="#" class="title">Arslanovco</a> 
+    <header> 
+        <div class="inHeader">
+            <div class="logoText">
+                <a href="#" class="logo"> <img src="media/waveLogo.png" width="75" height="75" alt="logo"></a> 
+                <p><a href="#" class="title">Arslanovco</a></p> 
+            </div>
+          
             <nav class="navHeader"> 
                 <a href="somePage.html">Страница</a> 
                 <a href="about/about.html">О нас</a> 
                 <a href="#table1">Таблица</a> 
                 <a href="#form1">Форма</a> 
-            </nav> 
-            </div> 
-        </header> 
+            </nav>
+        </div> 
+    </header> 
 
-        
-
-        <div class="contentDiv">
+    
+    <div class="contentDiv">
+        <div class="linksList">
             <h3>Список ссылок</h3>
             <ul>
                 <li><a href="http://www.kubsu.ru/index.php" id="page">Сайт КУБГУ</a></li>
@@ -64,7 +68,7 @@
             </ul>
         </div>
         
-        <div class="contentDiv tableBlock">
+        <div class="tableBlock">
             <h3>Таблица</h3>
             <table> 
                 <caption id="table1">Таблица</caption> 
@@ -116,7 +120,7 @@
             </table> 
         </div>
         
-        <div class="contentDiv formBlock">
+        <div class="formBlock">
             <h3>Форма</h3>
             <form action="URL_отправки_данных" method="POST" id="form1">
                 <label>
@@ -172,10 +176,13 @@
             </form>
         </div>
         
+    
+        
+    </div>
+    
+    <footer>
+        <div">Arslanovco 27/2 2023</div>
+    </footer> 
 
-        <footer>
-            <div">Arslanovco 27/2 2023</div>
-        </footer> 
-
-    </body>
-    </html>
+</body>
+</html>

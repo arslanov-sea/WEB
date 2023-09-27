@@ -1,0 +1,83 @@
+
+
+
+
+/* Стили для Мониторов и лэптопов */
+
+* {
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	/*border: 0;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: #84dce5;
+    height: 80;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.logoText {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+}
+
+.inHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navHeader {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Стили оснновной части */
+.contentDiv {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Стили для таблицы */
+table { 
+    border: 1px solid rgb(0, 0, 0); 
+    border-collapse: collapse;/*совместим рамки*/ 
+    width: 100%; 
+} 
+td { 
+    border: 1px solid rgb(152, 172, 38); 
+ } 
+tbody tr:nth-child(odd) 
+{ 
+    background: #84dce5; 
+} 
+tbody tr:nth-child(even) 
+{ 
+    background: #9898d4; 
+}
+
+.tableBlock {
+    background-color: #62aab2;
+}
+
+/* Footer */
+footer {
+    background-color: #c0ed8e;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
