@@ -1,110 +1,194 @@
 
-* {
-	outline: 0;
-	padding: 0;
-	margin: 0;
-	/*border: 0;*/
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-header {
-    background-color: #84dce5;
-    height: 80;
-    font-size: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+@media (max-width: 1180px) { 
+    * {
+        outline: 0;
+        padding: 0;
+        margin: 0;
+        /*border: 0;*/
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
     
-}
-
-.logoText {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 32px;
-    border-radius: 15px;
-    background-color: #22b0c0;
-} .title {
-    text-decoration: none;
-    color: white;
-}
-
-.inHeader {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    header {
+        background-color: #84dce5;
+        height: 80;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
     
-}
-
-.navHeader {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    justify-content: flex-start;
+    .logoText {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 32px;
+        border-radius: 15px;
+        background-color: #22b0c0;
+    } .title {
+        text-decoration: none;
+        color: white;
+    }
     
-}
-
-.navHeader a {
-    background-color: #22b0c0;
-    margin-top: 10px;
-    border-radius: 15px;
-    text-align: center;
-    color: white;
-}
-
-/* Стили оснновной части */
-.contentDiv {
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.linksList {
-    order: 1;
-}
-.tableBlock {
-    order: 0;
-}
-.formBlock {
-    order: 2;
-}
-
-/* Стили для таблицы */
-table { 
-    border: 1px solid rgb(0, 0, 0); 
-    border-collapse: collapse;/*совместим рамки*/ 
-    width: 60%; 
-    margin-left: auto;
-    margin-right: auto;
+    .inHeader {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
     
-} 
-td { 
-    border: 1px solid rgb(152, 172, 38); 
- } 
-tbody tr:nth-child(odd) 
-{ 
-    background: #84dce5; 
-} 
-tbody tr:nth-child(even) 
-{ 
-    background: #9898d4; 
-}
+    .navHeader {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: flex-start;
+        
+    }
+    
+    .navHeader a {
+        background-color: #22b0c0;
+        margin-top: 10px;
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+    }
+    
+    /* Стили оснновной части */
+    .contentDiv {
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .linksList {
+        order: 1;
+    }
+    .tableBlock {
+        order: 0;
+    }
+    .formBlock {
+        order: 2;
+    }
+    
+    /* Стили для таблицы */
+    table { 
+        border: 1px solid rgb(0, 0, 0); 
+        border-collapse: collapse;/*совместим рамки*/ 
+        width: 60%; 
+        margin-left: auto;
+        margin-right: auto;
+        
+    } 
+    td { 
+        border: 1px solid rgb(152, 172, 38); 
+     } 
+    tbody tr:nth-child(odd) 
+    { 
+        background: #84dce5; 
+    } 
+    tbody tr:nth-child(even) 
+    { 
+        background: #9898d4; 
+    }
+    
+    .tableBlock {
+        background-color: #62aab2;
+    }
+    
+    /* Footer */
+    footer {
+        background-color: #c0ed8e;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+ }
 
-.tableBlock {
-    background-color: #62aab2;
-}
 
-/* Footer */
-footer {
-    background-color: #c0ed8e;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+ /* Стили для остальных */
+ @media (min-width: 1180px) {
+    * {
+        outline: 0;
+        padding: 0;
+        margin: 0;
+        /*border: 0;*/
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    header {
+        background-color: #84dce5;
+        height: 80;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 15px;
+        margin: 10px;
+    }
+    
+    .logoText {
+        display: flex;
+        align-items: center;
+        font-size: 32px;
+    }
+    
+    .inHeader {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .navHeader {
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    /* Стили оснновной части */
+    .contentDiv {
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    /* Стили для таблицы */
+    table { 
+        border: 1px solid rgb(0, 0, 0); 
+        border-collapse: collapse;/*совместим рамки*/ 
+        width: 100%; 
+    } 
+    td { 
+        border: 1px solid rgb(152, 172, 38); 
+     } 
+    tbody tr:nth-child(odd) 
+    { 
+        background: #84dce5; 
+    } 
+    tbody tr:nth-child(even) 
+    { 
+        background: #9898d4; 
+    }
+    
+    .tableBlock {
+        background-color: #62aab2;
+    }
+    
+    /* Footer */
+    footer {
+        background-color: #c0ed8e;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+ }
