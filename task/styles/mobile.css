@@ -136,6 +136,10 @@
         display: flex;
         align-items: center;
         font-size: 32px;
+        
+    } .logoText a {
+        color: #fff;
+        text-decoration: none;
     }
     
     .inHeader {
@@ -148,6 +152,9 @@
         width: 25%;
         display: flex;
         justify-content: space-between;
+        
+    } .navHeader a {
+        color: #fff;
     }
     
     /* Стили оснновной части */
