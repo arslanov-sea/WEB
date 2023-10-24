@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/task4.css">
+    <!--<link rel="stylesheet" href="styles/desktop.css" media="(min-width: 1180px)"-->
+</head>
+<body>
+
+    <header class="py-2 px-2 my-lg-2 mx-lg-2"> 
+        <div class="container-fluid d-lg-flex align-items-center div1">
+
+            <div class="row logoText align-items-center col-lg-5 div2">
+                <div class="col col-lg-2 divLogo">
+                    <a href="#" class="logo"> <img src="media/waveLogo.png" width="75" height="75" alt="logo"></a> 
+                </div>
+                <div class="col col-lg-4 divTitle">
+                    <p><a href="#" class="title">Arslanovco</a></p> 
+                </div>
+            </div>
+                
+            <div class="container-fluid menu col-lg-7 div3">
+                <nav class="row justify-content-end navHeader nav1"> 
+                    <a class="col-lg-2 col-sm-5 text-center" href="somePage.html">Страница</a> 
+                    <a class="col-lg-2 col-sm-5 text-center" href="#table1">Таблица</a> 
+                    <a class="col-lg-2 col-sm-5 text-center" href="#form1">Форма</a> 
+                    <a class="col-lg-2 col-sm-5 text-center" href="about/about.html">О нас</a> 
+                </nav>
+            </div>
+              
+
+        </div> 
+    </header> 
+
+    
+    <div class="container w-75">
+        <div class="row order-2">
+            <h3>Список ссылок</h3>
+            <ul>
+                <li><a href="http://www.kubsu.ru/index.php" id="page">Сайт КУБГУ</a></li>
+                <li><a href="https://www.kubsu.ru/index.php">Сайт КУБГУ в протоколе https</a></li>
+                <li><a href="https://www.kubsu.ru/"><img src="media/kubsuPhoto.jpg"width="200"; height="200"></a></li>
+                <li><p>сокращенная ссылка на <a href="/university/WEB/task1/inpage1/inpage.html">внутреннюю страницу</a></p></li>
+                <li><a href="#header">Ссылка на загаловок ("Задание 1")</a></li>  
+                <li><a href="https://www.wildberries.ru/promotions/vybirayte-smartfony-infinix?erid=LdtCK4xhT&page=1&sort=newly">ссылка с тремя параметрами в URL</a></li>
+                <li><a href="https://www.kubsu.ru/index.php#zone-footer-wrapper">Ссылка с параметром id в url (Сайт КубГУ)</a></li>
+                <li><a href="./somePage.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+                <li><a href="./about/about.html">About</a></li>
+                <li>Ссылки на переход на страницу каталогом двумя каталогами выше находятся в файлах about и details (Ссылка на details находится на странице about)</li>
+                <li>Филосо́фия — особая форма <a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B5">познания</a> и система знаний об общих характеристиках</li>
+                <li><a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B5#Литература">Ссылка на фрагмент страницы стороннего сайта</a></li>
+                <li>
+                    <map name="figure">
+                        <area shape="circle" coords="131,139,33" href="https://www.rusprofile.ru/id/10146732">
+                        <area shape="rect" coords="35,28,94,83"href="https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B9_%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82">
+                    </map>
+                    <img src="media/figures.jpeg" usemap="#figure" width="271"; height="186">
+                </li>
+                <li><a href="">Ссылка с пустым href</a></li>
+                <li><a>Ссылка без href</a></li>
+                <li>
+                    <a href="https://www.kinopoisk.ru/film/915107/?utm_referrer=www.google.com" rel="nofollow">ссылка, по которой запрещен переход поисковикам</a>
+                </li>
+                <li>
+                    <noindex>
+                        <a href="https://www.rbc.ru/economics/12/09/2023/6500ae9e9a79474f30909183" rel="nofollow">ссылка, запрещенная для индексации поисковикам</a>
+                    </noindex>
+                </li>
+                <ol>
+                    <li><a href="http://www.di-mat.ru/faq/2012-287" title="Ответ на вопрос Что я могу знать">Что я могу знать?</a></li>
+                    <li><a href="http://www.di-mat.ru/faq/2012-287" title="Ответ на вопрос Что я долджен делать">Что я долджен делать?</a></li>
+                    <li><a href="http://www.di-mat.ru/faq/2012-287" title="Ответ на вопрос На что я могу надеяться">На что я могу надеяться?</a></li>
+                </ol>
+                <li><a href="ftp://user:password@example.com/myfile.zip">Файл на сервере FTP с авторизацией</a></li>
+            </ul>
+        </div>
+        
+        <div class="row oreder-1 tableBlock">
+            <h3>Таблица</h3>
+            <table> 
+                <caption id="table1"></caption> 
+                <thead> 
+                    <tr> 
+                    <th>Имя</th> 
+                    <th>Фамилия</th> 
+                    <th>Город</th> 
+                    <th>ВУЗ</th> 
+                    </tr> 
+                </thead> 
+                <tbody>
+                    <tr> 
+                        <td>Фазя</td> 
+                        <td>Шангереев</td> 
+                        <td>Став</td> 
+                        <td>СтГМУ</td> 
+                    </tr> 
+                    <tr> 
+                        <td>Юлия</td> 
+                        <td>К.</td> 
+                        <td rowspan="2">Краснодар</td> 
+                        <td>КубГУ</td> 
+                    </tr> 
+                    <tr> 
+                        <td>Кристина</td> 
+                        <td>Алексеева</td> 
+                        <td>КубГТУ</td>
+                    </tr> 
+                    <tr> 
+                        <td>Рита</td> 
+                        <td>Шмидт</td> 
+                        <td>Минск</td> 
+                        <td>БГУ</td> 
+                    </tr> 
+                    <tr> 
+                        <td>Джон</td> 
+                        <td>Уиллиям</td> 
+                        <td>Оксфорд</td> 
+                        <td>Оксфорд</td> 
+                    </tr> 
+                    <tr> 
+                        <td>Карина</td> 
+                        <td>Максимова</td> 
+                        <td>Саратов</td> 
+                        <td>СГМУ</td> 
+                    </tr> 
+                </tbody> 
+            </table> 
+        </div>
+        
+        <div class="row order-3">
+            <h3>Форма</h3>
+            <form action="URL_отправки_данных" method="POST" id="form1">
+                <label>
+                    ФИО<br/>
+                    <input type="text">
+                </label><br/>
+                <br/>
+                    Телефон<br/>
+                    <input type="tel">
+                <br>
+                <label>
+                    email<br/>
+                    <input type="email">
+                </label><br/>
+                <br/>
+                <label>
+                    Дата рождения<br/>
+                    <input type="date">
+                </label><br/>
+                <label>Пол</label><br/>
+                <label>
+                    Мужской
+                    <input type="radio" name="radio_1">
+                </label><br/>
+                <label>
+                    Женский
+                    <input type="radio" name="radio_1">
+                </label><br/>
+                <label>
+                    Любимый язык программирования<br/>
+                        <select name="FavPL[]" multiple="multiple">
+                        <option value="Pascal">Pascal</option>
+                        <option value="C">C</option>
+                        <option value="C++">C++</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Python">Python</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Java">Java</option>
+                        <option value="Haskel">Haskel</option>
+                        <option value="Clojure">Clojure</option>
+                        <option value="Prolog">Prolog</option>
+                        <option value="Scala">Scala</option>
+                    </select>
+                </label><br/>
+                <label>
+                    Биография:<br />
+                    <textarea name="field-name-2">начальное значение</textarea>
+                </label><br/>
+                <label><input type="checkbox" checked="checked" name="check-1" />
+                    С контрактом ознакомлен(а)
+                </label><br/>
+                <input type="submit" value="Сохранить" />
+            </form>
+        </div>
+        
+    
+        
+    </div>
+    
+    <footer>
+        <div">Arslanovco 27/2 2023</div>
+    </footer> 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

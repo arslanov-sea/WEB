@@ -1,0 +1,98 @@
+
+    * {
+
+
+        /*border: 0;*/
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+
+    header {
+        background-color: #84dce5;
+        height: 80;
+        font-size: 20px;
+        
+    }
+
+    .logoText {
+        font-size: 32px;
+        border-radius: 15px;
+        background-color: #22b0c0;
+    } .title {
+        text-decoration: none;
+        color: white;
+    }
+
+
+
+    .navHeader a {
+
+        border-radius: 15px;
+        color: white;
+    }
+
+    /* Стили оснновной части */
+
+
+
+    /* Стили для таблицы */
+    table { 
+        border: 1px solid rgb(0, 0, 0); 
+        border-collapse: collapse;/*совместим рамки*/ 
+        background-color: #62aab2;
+    } 
+    td { 
+        border: 1px solid rgb(152, 172, 38); 
+    } 
+    tbody tr:nth-child(odd) 
+    { 
+        background: #84dce5; 
+    } 
+    tbody tr:nth-child(even) 
+    { 
+        background: #9898d4; 
+    }
+
+    .tableBlock {
+        background-color: #62aab2;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #c0ed8e;
+        height: 45px;
+
+    }
+
+
+/*Дизайн для мониторов*/
+@media screen and (min-width: 992px) {
+    
+    header {
+        background-color: #84dce5;
+        height: 80;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+
+    
+    .logoText {
+        font-size: 32px;
+        background-color: #84dce5;
+    }
+    
+
+
+    
+    /* Стили оснновной части */
+    
+    
+    /* Стили для таблицы */
+
+    
+    /* Footer */
+    footer {
+        background-color: #c0ed8e;
+    }
+}

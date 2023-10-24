@@ -1,0 +1,50 @@
+tr:nth-child(odd) {
+    background-color: aqua;
+}
+
+tr:nth-child(even) {
+    background-color: cadetblue;
+}
+
+body {
+    background-color: azure;
+}
+
+
+
+header {
+    background-color: bisque;
+}
+
+.main p {
+    font-size: 40px;
+    color: brown;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 30px;
+    color: chocolate;
+}
+
+
+td {
+    height: 50px;
+    width: 50px;
+}
+
+tr {
+    text-align: center;
+}
+
+
+.form {
+    background-color: azure;
+}
+
+
+@media (min-width: 800px) {
+    .menu a{
+        font-size: 25px;
+    }
+}
