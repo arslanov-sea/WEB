@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.content {
+    max-width: 724px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.formDiv {
+    background-color: #dce1be;
+    margin-top: 0;
+} .formDiv * {
+    margin: 10px 0 0 0;
+}

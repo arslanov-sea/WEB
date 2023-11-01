@@ -1,15 +1,40 @@
-<!-- https://serblog.ru/kak-sdelat-kalkulyator-rascheta-stoimosti-na-javascript/?ysclid=locu0rxnwf802095777 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Задание 5</title>
+    <script defer src="task5.js"></script>
+    <link rel="stylesheet" href="task5.css">
 </head>
+
 <body>
-    <script>
-        a = 5;
-        document.write("<h" + a + ">Hello, world!</h" + a + ">");
-    </script>
+
+    <div class="content">
+        <h1>Калькулятор стоимости</h1>
+
+        <div class="formDiv">
+            <form>
+
+                <label for="product">Выберите продукт:</label><br>
+    
+                <select id="product">
+                    <option value="1000">Компьютер - 1000</option>
+                    <option value="30">Мышь - 30</option>
+                    <option value="1500">Монитор - 1500</option>
+                    <option value="80">Клавиатура - 80</option>
+                </select>
+    
+                <br>
+                
+                <label for="volume">Введите количество товара:</label><br>
+                <input type="text" id="volume" placeholder="0" autofocus>
+                <br><button id="calculateButton" onclick="calc()" >Подсчитать стоимость</button>
+                <h2>Стоимость заказа: <span id="total">0</span> USD.</h2>
+            </form>
+        </div>
+    </div>
+    
+
 </body>
 </html>
