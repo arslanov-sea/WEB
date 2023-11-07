@@ -1,0 +1,134 @@
+html {
+    height: 100%;
+}
+
+p, a, input, select, label {
+    font-size: 20px;
+}
+.root {
+    background-color: #d8e9eb;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+footer {
+    background-color: #a9a298;
+    box-shadow: -5px 1px 1px black;
+}
+
+.logo {
+    width: 85px;
+    height: 85px;
+}
+.front-block {
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    background: rgba(255, 255 ,255, .4);
+}
+
+footer {
+    height: 30px;
+    background-color: #84dce5;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #fff;
+}
+
+
+* {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    /*border: 0;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 1179px) {
+    header {
+        background-color: #84dce5;
+        height: 80;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+    
+    .logoText {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 32px;
+        border-radius: 15px;
+        background-color: #22b0c0;
+    } .title {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .inHeader {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    
+    .navHeader {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: flex-start;
+        
+    }
+    
+    .navHeader a {
+        /* background-color: #22b0c0; */
+        margin-top: 10px;
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+    }
+}
+
+
+@media screen and (min-width: 1180px) {
+    header {
+        background-color: #84dce5;
+        height: 80;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 15px;
+        margin: 10px;
+    }
+    
+    .logoText {
+        display: flex;
+        align-items: center;
+        font-size: 32px;
+        
+    } .logoText a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .inHeader {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .navHeader {
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+        
+    } .navHeader a {
+        color: #fff;
+    }
+}
