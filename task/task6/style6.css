@@ -31,6 +31,10 @@ footer {
     background-color: #84dce5;
 }
 
+.contentMain {
+    height: 100%;
+}
+
 .footer-text {
     font-size: 14px;
     color: #fff;
